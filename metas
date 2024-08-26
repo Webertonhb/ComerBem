@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é sua altura e peso?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1e8;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            color: #b9a07d;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            font-size: 1.2em;
+            padding: 10px;
+            width: 60%;
+            border: 1px solid #b9a07d;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button {
+            font-size: 1.2em;
+            color: white;
+            background-color: #b9a07d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #a3876c;
+        }
+
+        .background-graphic {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <h1>QUAL É SUA ALTURA E PESO?</h1>
+    <input type="text" placeholder="Altura">
+    <input type="text" placeholder="Peso">
+    <br>
+    <button>Próximo</button>
+    <img class="background-graphic" src="caminho-da-imagem.png" alt="Gráfico de fundo">
+</body>
+</html>
