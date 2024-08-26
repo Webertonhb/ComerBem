@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a sua idade?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1e8;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #b9a07d;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            font-size: 1.2em;
+            padding: 10px;
+            width: 60%;
+            border: 1px solid #b9a07d;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            font-size: 1.2em;
+            color: white;
+            background-color: #b9a07d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #a3876c;
+        }
+
+        .background-graphic {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <h1>QUAL É A SUA IDADE?</h1>
+    <input type="text" placeholder="Idade">
+    <br>
+    <button>Próximo</button>
+    <img class="background-graphic" src="https://www.google.com/imgres?q=foto%20de%20perfil&imgurl=https%3A%2F%2Fimg.freepik.com%2Fvetores-premium%2Ficone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg&imgrefurl=https%3A%2F%2Fbr.freepik.com%2Fvetores-premium%2Ficone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_44276367.htm&docid=2JWwz1TLmV6kzM&tbnid=hmy6sO63nVxONM&vet=12ahUKEwjBj4DGtIuIAxXJuJUCHRN_JlQQM3oECG8QAA..i&w=626&h=626&hcb=2&ved=2ahUKEwjBj4DGtIuIAxXJuJUCHRN_JlQQM3oECG8QAA" alt="Gráfico de fundo">
+</body>
+</html>
