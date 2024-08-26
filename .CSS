@@ -1,0 +1,16 @@
+.login-container {
+    position: relative;
+    background-color: #eaeae0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-container .eye-icon {
+    position: absolute;
+    top: 143px; /* Ajuste para alinhar o ícone com o campo de senha */
+    right: 30px;
+    cursor: pointer;
+}
