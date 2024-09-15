@@ -1,0 +1,7 @@
+CREATE TABLE Refeicoes (
+    id_refeicao INT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario INT,
+    data_refeicao DATE NOT NULL,
+    descricao VARCHAR(255),
+    FOREIGN KEY (id_usuario) REFERENCES Usuarios(id_usuario)
+);

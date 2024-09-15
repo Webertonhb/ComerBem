@@ -1,0 +1,8 @@
+CREATE TABLE Itens_Refeicao (
+    id_item INT AUTO_INCREMENT PRIMARY KEY,
+    id_refeicao INT,
+    id_alimento INT,
+    quantidade FLOAT,
+    FOREIGN KEY (id_refeicao) REFERENCES Refeicoes(id_refeicao),
+    FOREIGN KEY (id_alimento) REFERENCES Alimentos(id_alimento)
+);

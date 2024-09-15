@@ -1,0 +1,12 @@
+ a.nome AS alimento,
+    ir.quantidade,
+    (a.calorias * ir.quantidade / 100) AS calorias,
+    (a.proteinas * ir.quantidade / 100) AS proteinas,
+    (a.carboidratos * ir.quantidade / 100) AS carboidratos,
+    (a.gorduras * ir.quantidade / 100) AS gorduras
+FROM 
+    Itens_Refeicao ir
+JOIN 
+    Alimentos a ON ir.id_alimento = a.id_alimento
+WHERE 
+    ir.id_refeicao = ?;  -- Substitua '?' pelo ID da refeição

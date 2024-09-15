@@ -1,0 +1,8 @@
+CREATE TABLE Alimentos (
+    id_alimento INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    calorias FLOAT,
+    proteinas FLOAT,
+    carboidratos FLOAT,
+    gorduras FLOAT
+);
